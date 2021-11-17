@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-const URI = process.env.DB_URI;
+const URI = `mongodb+srv://quicknote-admin:V0yLoIcHN7EbWcby@quickname.rbqxg.mongodb.net/quickNoteDB?retryWrites=true&w=majority`;
 
 async function connect() {
   try {
