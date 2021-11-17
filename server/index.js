@@ -11,7 +11,7 @@ db.connect(); // no need to await for it due to Mongoose buffering!
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("QuickNote API!");
+  res.send("QuickNotes API!");
 });
 
 app.get("/api/notes", async (req, res) => {
